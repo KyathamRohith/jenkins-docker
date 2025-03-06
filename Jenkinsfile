@@ -4,7 +4,7 @@ pipeline {
         DOCKER_IMAGE = "my-jenkins-app"
         DOCKER_TAG = "latest"
         CONTAINER_NAME = "my-nginx-container"
-        EXPOSED_PORT = "8080"
+        EXPOSED_PORT = "8098"
         DOCKER_REPO = "rohith1305/my-jenkins-app"
         DOCKER_CREDENTIALS_ID = "93c470a0-e8fe-425c-8f55-932aae8919d4"  // Jenkins credentials ID
         SERVER_IP = "192.168.203.128"  // Replace with your server IP
